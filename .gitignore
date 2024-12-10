@@ -1,0 +1,10 @@
+.*/
+bin/
+Content/
+obj/
+*.manifest
+
+*.csproj
+*.ico
+*.bmp
+*.sln
