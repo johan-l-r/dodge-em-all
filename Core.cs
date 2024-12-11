@@ -18,7 +18,7 @@ public class Core : Game {
     }
 
     protected override void LoadContent() {
-
+        Globals.Batch = new SpriteBatch(GraphicsDevice);
     }
 
     protected override void Update(GameTime gameTime) {
