@@ -19,6 +19,8 @@ public abstract class Entity : Object, Drawable, Updatable {
     ) : base(position, width, height) {
         this.MovementSpeed = movementSpeed;
 
+        this.Color = color;
+        
         this.Texture = this.Texture ?? (texture != null ? texture : new Texture2D(graphicsDevice, 1, 1));
         this.Texture.SetData<Color>(new Color[] { this.Color });
     }
